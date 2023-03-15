@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ /* -----------------------------
+    Styles for footer
+    ----------------------------- */
+ 
+ /* ----------------------------- */
+ 
+ footer {
+    font-family: sans-serif;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding-bottom: 0.01em;
+    padding-top: 0;
+ }
+ 
+ footer p {
+    padding-left: 1em;
+    padding-top: 0.5em;
+    margin-top: 0;
+ }
+ 
+ 
+ /* -----------------------------
+    Styles for header
+    ----------------------------- */
+ 
+ /* ----------------------------- */
+ 
+ header {
+    align-items: center;
+ }
+ /* :first-child */
+ header h2 {
+    background-color: black;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(135deg, rgb(14, 147, 180), rgb(12, 129, 71)) repeat scroll 0% 0%;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0em;
+    font-size: 3.5em;
+ }
+ 
+ header nav ul{
+    padding: 0;
+ }
+ 
+ header nav ul li {
+    padding: 0em 4em;
+    margin: 0em;
+    display: inline;
+    padding-bottom: 0;
+ }
+ 
+ header nav .primary a:link, header nav .primary a:visited {
+    color: red;
+    margin: 0em;
+ }
+ 
+ /* nav ul{padding: 0; margin: 0} */
+ 
+ /* header .primary {
+    padding: 0;
+    margin: 0%;
+    display: inline;
+    padding-bottom: 0;
+ } */
+ 
+ /* header .primary {
+    margin: 0em;
+ } */
+ 
+ /* -----------------------------
+    Styles for header nav
+    ----------------------------- */
+ 
+ /* ----------------------------- */
+ 
+ .primary a:link, .primary a:visited {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ .primary ul li:first-child :before {
+    content: none;
+ }
+ 
+ .primary ul li:last-child > a:visited,
+ .primary ul li:last-child > a:hover,
+ .primary ul li:last-child > a:link,
+ .primary ul li:last-child > a:active
+ {
+    color: black;
+    padding: 0.5em;
+ }
+ 
+ header nav.primary {
+    grid-area: nav1;
+    text-align: center;
+    padding: 0em 2em;
+ }
+ 
+ /* section li, section li a:link :after {
+ content: url(../images/arrow-right.svg); */
+ /* width: 1em;
+ height: 1em; */
+ /* } */
+ 
+ /* section li, section li a:link img {
+    border-radius: 8px;
+    
+ } */
+ 
+ 
+ 
+ /* -----------------------------
+    Styles for "About Me"
+    ----------------------------- */
+ 
+ /* ----------------------------- */
+ 
+ .about {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(32, 32, 32);
+    padding: 3em;
+    background-color: #ebebeb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+ }
+ 
+ .about .split12{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ 
+ }
+ 
+ div.about h1 {
+    text-align: center;
+    padding-top: 0.5em;
+ }
+ 
+ div.about h2 {
+    width: 75%;
+    margin: auto;
+    line-height: 40pt;
+    text-align: center;
+ }
+ 
+ .about .profile {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(135deg, rgb(14, 147, 180), rgb(12, 129, 71)) repeat scroll 0% 0%;
+    padding: 1rem;
+ }
+ 
+ .about .split12 *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
